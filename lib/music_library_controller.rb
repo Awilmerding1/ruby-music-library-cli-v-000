@@ -10,6 +10,7 @@ class MusicLibraryController
 
 def call
   puts "Welcome to your music library!"
+   until gets.chomp == "exit"
   puts "To list all of your songs, enter 'list songs'."
   puts "To list all of the artists in your library, enter 'list artists'."
   puts "To list all of the genres in your library, enter 'list genres'."
@@ -18,7 +19,7 @@ def call
    puts "To play a song, enter 'play song'."
    puts "To quit, type 'exit'."
     puts "What would you like to do?"
-   until gets.chomp == "exit"
+  
    puts "To list all of your songs, enter 'list songs'."
   puts "To list all of the artists in your library, enter 'list artists'."
   puts "To list all of the genres in your library, enter 'list genres'."
