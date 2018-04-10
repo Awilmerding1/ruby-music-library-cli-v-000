@@ -40,9 +40,9 @@ def call
        # when 'list genre'
        #   self.list_songs_by_genre
          # when 'play song'
-          #  self.play_song
+          ##  self.play_song
   
-end
+#end
 end
 
 def list_songs
