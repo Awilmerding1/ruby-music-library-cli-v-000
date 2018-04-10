@@ -20,6 +20,7 @@ def call
    puts "To quit, type 'exit'."
     puts "What would you like to do?"
 end
+input = gets.chomp
 end
 
 def list_songs
