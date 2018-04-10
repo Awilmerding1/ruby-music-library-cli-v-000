@@ -29,7 +29,6 @@ def call
    puts "To play a song, enter 'play song'."
    puts "To quit, type 'exit'."
     puts "What would you like to do?"
-   end
    
    case gets.chomp
    when 'list songs'
@@ -44,7 +43,7 @@ def call
          self.list_songs_by_genre
           when 'play song'
           self.play_song
-  
+  end
 end
 end
 
