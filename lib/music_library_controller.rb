@@ -9,8 +9,9 @@ class MusicLibraryController
   end
 
 def call
-  input = gets.chomp
+  
   puts "Welcome to your music library!"
+  input = gets.chomp
    until input == "exit"
    
   puts "To list all of your songs, enter 'list songs'."
