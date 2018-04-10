@@ -30,7 +30,8 @@ def call
   end
   case gets.chomp
   when 'list songs'
-    
+    self.list_songs 
+  end
     
 end
 
