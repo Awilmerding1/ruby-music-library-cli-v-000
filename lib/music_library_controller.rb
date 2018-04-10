@@ -19,6 +19,8 @@ def call
    puts "To quit, type 'exit'."
     puts "What would you like to do?"
    case gets.chomp
+   when 'exit'
+     return
    when 'list songs'
      self.list_songs 
    when 'list artists'
