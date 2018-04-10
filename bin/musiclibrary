@@ -4,3 +4,8 @@ require_relative '../config/environment'
 
 MusicLibraryController.new.call
 
+if gets.chomp == 'list songs'
+list_songs
+
+
+
