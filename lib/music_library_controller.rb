@@ -32,8 +32,6 @@ def call
    end
    
    case gets.chomp
-   when 'exit'
-     return
    when 'list songs'
      self.list_songs 
    when 'list artists'
